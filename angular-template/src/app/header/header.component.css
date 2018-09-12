@@ -1,0 +1,12 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.maxwidth {
+    width: 100%;
+    margin: 0;
+}
+
+.left-margin {
+    margin-left: 12px;
+}

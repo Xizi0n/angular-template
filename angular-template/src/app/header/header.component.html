@@ -1,0 +1,73 @@
+<mat-toolbar color="primary" class="maxwidth">
+    <span>ElectricStuff</span>
+    <button mat-raised-button color="primary" class="left-margin" [matMenuTriggerFor]="animals"><span>Kategóriák</span></button>
+
+    <mat-menu #animals="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="notebook">Notebook & Számítástechnika</button>
+      <button mat-menu-item [matMenuTriggerFor]="optika">Fotó, Videó & Optika</button>
+      <button mat-menu-item [matMenuTriggerFor]="tvaudio">TV, Audió & Szórakozás</button>
+      <button mat-menu-item [matMenuTriggerFor]="mobil">Mobiltelefon & Kiegészítők</button>
+      <button mat-menu-item [matMenuTriggerFor]="tablet">Tablet, E-book & Navigáció</button>
+    </mat-menu>
+
+    <mat-menu #notebook="matMenu">
+      <button mat-menu-item>Notebook</button>
+      <button mat-menu-item>Alkatrész</button>
+      <button mat-menu-item>Periféra</button>
+      <button mat-menu-item>Asztali számítógép</button>
+      <button mat-menu-item>Gamer</button>
+    </mat-menu>
+
+    <mat-menu #optika="matMenu">
+      <button mat-menu-item>Fényképezőgép</button>
+      <button mat-menu-item>Videókamera</button>
+      <button mat-menu-item>Objektív & kiegészítők</button>
+    </mat-menu>
+
+    <mat-menu #tvaudio="matMenu">
+      <button mat-menu-item>Televízió</button>
+      <button mat-menu-item>Házimozi</button>
+      <button mat-menu-item>Fej- és fülhallgató</button>
+    </mat-menu>
+
+    <mat-menu #mobil="matMenu">
+        <button mat-menu-item>Mobiltelefon</button>
+        <button mat-menu-item>Mobiltelefon tartozékok</button>
+        <button mat-menu-item>Okosóra & kiegészítők</button>
+    </mat-menu>
+
+    <mat-menu #tablet="matMenu">
+        <button mat-menu-item>Tablet</button>
+        <button mat-menu-item>E-book</button>
+        <button mat-menu-item>Navigáció</button>
+        <button mat-menu-item>Navigáió tartozék</button>
+    </mat-menu>
+
+    <mat-menu #fish="matMenu">
+      <button mat-menu-item>Baikal oilfish</button>
+      <button mat-menu-item>Bala shark</button>
+      <button mat-menu-item>Ballan wrasse</button>
+      <button mat-menu-item>Bamboo shark</button>
+      <button mat-menu-item>Banded killifish</button>
+    </mat-menu>
+
+    <mat-menu #amphibians="matMenu">
+      <button mat-menu-item>Sonoran desert toad</button>
+      <button mat-menu-item>Western toad</button>
+      <button mat-menu-item>Arroyo toad</button>
+      <button mat-menu-item>Yosemite toad</button>
+    </mat-menu>
+
+    <mat-menu #reptiles="matMenu">
+      <button mat-menu-item>Banded Day Gecko</button>
+      <button mat-menu-item>Banded Gila Monster</button>
+      <button mat-menu-item>Black Tree Monitor</button>
+      <button mat-menu-item>Blue Spiny Lizard</button>
+      <button mat-menu-item disabled>Velociraptor</button>
+    </mat-menu>
+    <span class="spacer"></span>
+    <div class="button-row">
+      <button mat-raised-button color="primary">Sign Up</button>
+      <button mat-raised-button color="primary">Sign In</button>
+    </div>
+</mat-toolbar>
