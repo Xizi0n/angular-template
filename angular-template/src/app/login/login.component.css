@@ -1,0 +1,29 @@
+.maxwidth {
+    width: 100%;
+}
+
+.formAlign {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.border {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.topmargin {
+    margin-top: 20%;
+}
+.bottommargin {
+    margin-bottom: 20%;
+}
+
+mat-form-field {
+    display: block;
+}

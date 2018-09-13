@@ -9,6 +9,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
 
 
 
@@ -19,6 +23,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ItemComponent } from './item/item.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -26,7 +32,9 @@ import { ItemComponent } from './item/item.component';
     AppComponent,
     HeaderComponent,
     SidenavComponent,
-    ItemComponent
+    ItemComponent,
+    RegistrationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,9 @@ import { ItemComponent } from './item/item.component';
     MatSidenavModule,
     MatIconModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
