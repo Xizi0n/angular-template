@@ -3,7 +3,7 @@
 }
 
 .formAlign {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -11,19 +11,31 @@
     text-align: center;
 }
 
-.border {
+.borderlogin {
     border-style: solid;
     border-color: black;
-    border-width: 5px;
+    border-width: 1px;
 }
 
 .topmargin {
-    margin-top: 20%;
-}
-.bottommargin {
-    margin-bottom: 20%;
+    margin-top: 15%;
 }
 
 mat-form-field {
     display: block;
+}
+
+h4 {
+    margin: 0;
+    font-size: 2em;
+    padding: 30px;
+}
+p {
+    margin-top: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
 }

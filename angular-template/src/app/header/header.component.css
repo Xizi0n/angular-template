@@ -10,3 +10,7 @@
 .left-margin {
     margin-left: 12px;
 }
+
+.mat-button {
+    font-size: 0.9em;
+}

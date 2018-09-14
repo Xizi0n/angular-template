@@ -1,8 +1,8 @@
 <mat-toolbar color="primary" class="maxwidth">
     <span>ElectricStuff</span>
-    <button mat-raised-button color="primary" class="left-margin" [matMenuTriggerFor]="animals"><span>Kategóriák</span></button>
+    <button mat-button class="left-margin" [matMenuTriggerFor]="kategoriak"><span>Kategóriák</span><mat-icon>arrow_drop_down</mat-icon></button>
 
-    <mat-menu #animals="matMenu">
+    <mat-menu #kategoriak="matMenu">
       <button mat-menu-item [matMenuTriggerFor]="notebook">Notebook & Számítástechnika</button>
       <button mat-menu-item [matMenuTriggerFor]="optika">Fotó, Videó & Optika</button>
       <button mat-menu-item [matMenuTriggerFor]="tvaudio">TV, Audió & Szórakozás</button>
@@ -67,7 +67,7 @@
     </mat-menu>
     <span class="spacer"></span>
     <div class="button-row">
-      <button mat-raised-button color="primary">Sign Up</button>
-      <button mat-raised-button color="primary">Sign In</button>
+      <button mat-button> <mat-icon>person_add</mat-icon>&nbsp;Regisztráció</button>
+      <button mat-button> <mat-icon>person</mat-icon>&nbsp;Bejelentkezés</button>
     </div>
 </mat-toolbar>
