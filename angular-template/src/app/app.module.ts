@@ -12,6 +12,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatListModule} from '@angular/material/list';
+
+
 
 
 
@@ -28,12 +31,14 @@ import { ItemComponent } from './item/item.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { CartComponent } from './cart/cart.component';
 
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registration', component: RegistrationComponent },
-  { path: '', component: WelcomeComponent}
+  { path: '', component: WelcomeComponent},
+  { path: 'cart', component: CartComponent}
 ];
 
 
@@ -45,7 +50,8 @@ const appRoutes: Routes = [
     ItemComponent,
     RegistrationComponent,
     LoginComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -59,6 +65,7 @@ const appRoutes: Routes = [
     MatMenuModule,
     MatFormFieldModule,
     MatInputModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

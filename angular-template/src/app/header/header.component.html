@@ -1,5 +1,5 @@
 <mat-toolbar color="primary" class="maxwidth">
-    <span routerLink="" style="cursor:pointer" >ElectricStuff</span>
+    <span routerLink="" style="cursor:pointer" ><img src="/assets/logo_transparent.png" class="logo"> ElectricStuff</span>
     <button mat-button class="left-margin" [matMenuTriggerFor]="kategoriak"><span>Kategóriák</span><mat-icon>arrow_drop_down</mat-icon></button>
 
     <mat-menu #kategoriak="matMenu">
@@ -47,6 +47,7 @@
 
 
     <div class="button-row">
+      <button mat-button routerLink="/cart" style="background-color: #F44336;"> <mat-icon>shopping_cart</mat-icon>&nbsp;Kosár</button>
       <button mat-button routerLink="/registration"> <mat-icon>person_add</mat-icon>&nbsp;Regisztráció</button>
       <button mat-button routerLink="/login"> <mat-icon>person</mat-icon>&nbsp;Bejelentkezés</button>
     </div>

@@ -1,0 +1,41 @@
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+mat-list-item img {
+    height: 48px;
+}
+
+mat-list {
+    border: 1px solid #9E9E9E;
+    border-radius: 2px;
+}
+
+.uibutton {
+    width: 100%;
+}
+
+.gombsor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button mat-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vegosszeg {
+    border-top: 3px dashed #9E9E9E;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.important {
+    font-size: 1.3em;
+}

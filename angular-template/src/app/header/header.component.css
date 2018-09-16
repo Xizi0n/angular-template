@@ -14,3 +14,7 @@
 .mat-button {
     font-size: 0.9em;
 }
+
+.logo {
+    max-height: 64px;
+}
