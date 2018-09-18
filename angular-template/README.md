@@ -1,27 +1,47 @@
 # AngularTemplate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+## Előkészületek
 
-## Development server
+### NodeJs telepítése
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://nodejs.org -ról letöltés és telepítés
 
-## Code scaffolding
+Csekkolni hogy sikeres-e?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+node -v
+```
 
-## Build
+ha kiírja  a verziószámot (jó esetben: v8.12.0)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+npm -v  
+```
 
-## Running unit tests
+hakiír valami verziót akkor ez is jó
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Angular cli telepítése
 
-## Running end-to-end tests
+Parancssorba:
+```
+npm install -g @angular/cli@1.7.3
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Futtatás
 
-## Further help
+Terminálba be cd-zel a projekt mappájába. Utána
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm install
+```
+
+Miután az lefut, jön az alábbi parancs:
+
+```
+ng serve
+```
+
+Ezután localhoston tudjátok elérni az appot
+
+localhost:4200
+
